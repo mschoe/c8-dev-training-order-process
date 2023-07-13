@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "label": "Credit Card Number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_13duti7",
+        "columns": null
+      },
+      "id": "Field_1ffgrye",
+      "key": "cardNumber",
+      "defaultValue": "0000 0000 0000 0000"
+    },
+    {
+      "label": "CSV",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0mrr1xl",
+        "columns": null
+      },
+      "id": "Field_0krecxj",
+      "key": "csv",
+      "defaultValue": "000"
+    },
+    {
+      "label": "Expiry Date",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_03fq4vl",
+        "columns": null
+      },
+      "id": "Field_0udrho0",
+      "key": "expiryDate",
+      "defaultValue": "MM/YY"
+    }
+  ],
+  "type": "default",
+  "id": "request-credit-card-details",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.12.1"
+  },
+  "schemaVersion": 9
+}

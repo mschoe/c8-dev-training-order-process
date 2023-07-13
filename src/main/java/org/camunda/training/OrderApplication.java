@@ -33,6 +33,10 @@ public class OrderApplication {
                     .open();
 
             // Credit Card Worker
+            client.newWorker().jobType("lookup-credit-card")
+                    .handler(new LookupCreditCardJobHandler())
+                    .open();
+
             client.newWorker().jobType("charge-credit-card")
                     .handler(new CreditCardJobHandler())
                     .open();
